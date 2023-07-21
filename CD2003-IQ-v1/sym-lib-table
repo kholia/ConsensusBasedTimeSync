@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADX-rescue")(type "Legacy")(uri "${KIPRJMOD}/ADX-rescue.lib")(options "")(descr ""))
+  (lib (name "Adafruit Si5351A-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/libraries/Adafruit Si5351A-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "CD2003 Library")(type "Legacy")(uri "${KIPRJMOD}/libraries/CD2003 Library.lib")(options "")(descr ""))
+  (lib (name "CD2003 Library_Fixed")(type "KiCad")(uri "${KIPRJMOD}/libraries/CD2003 Library_Fixed.kicad_sym")(options "")(descr ""))
+  (lib (name "cd2003gb_gp_fixed")(type "KiCad")(uri "/home/dhiru/repos/Easy-Digital-Beacons-v1/Control-Board-v3/libraries/cd2003gb_gp_fixed.kicad_sym")(options "")(descr ""))
+  (lib (name "ADP-2-1W_")(type "KiCad")(uri "${KIPRJMOD}/libraries/ADP-2-1W_.kicad_sym")(options "")(descr ""))
+  (lib (name "si535x_module-vfo")(type "KiCad")(uri "${KIPRJMOD}/libraries/si535x_module-vfo.kicad_sym")(options "")(descr ""))
+)

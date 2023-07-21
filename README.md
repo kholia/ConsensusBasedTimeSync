@@ -69,6 +69,11 @@ included in this repository.
 
 Tip: Use KiCad 7.x for handling these designs.
 
+Update (September 2023): After on-air testing, we recommend building the
+`CD2003-BoB-v2` design included in this repository over other designs!
+The `CD2003-S-BoB` design works too but BFO frequency tuning seems like
+a hard, finicky process.
+
 
 ### Pinout
 

@@ -1,0 +1,1 @@
+https://www.qsl.net/yt2fsg/diykits/ssb61.html
