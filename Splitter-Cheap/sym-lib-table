@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADP-2-1W_")(type "KiCad")(uri "${KIPRJMOD}/libs/ADP-2-1W_.kicad_sym")(options "")(descr ""))
+)

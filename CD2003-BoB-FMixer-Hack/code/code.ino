@@ -38,8 +38,8 @@ void setup()
   Serial.begin(115200);
 
   // I2C pins
-  Wire.setSDA(16);
-  Wire.setSCL(17);
+  Wire.setSDA(12);
+  Wire.setSCL(13);
   Wire.begin();
 
   // Initialize the Si5351
@@ -51,8 +51,8 @@ void setup()
   si5351.set_clock_pwr(SI5351_CLK0, 0); // safety first
 
   si5351.drive_strength(SI5351_CLK0, SI5351_DRIVE_8MA);
-  si5351.drive_strength(SI5351_CLK1, SI5351_DRIVE_2MA); // Set for reduced power for RX
-  si5351.drive_strength(SI5351_CLK2, SI5351_DRIVE_2MA);
+  si5351.drive_strength(SI5351_CLK1, SI5351_DRIVE_8MA); // Set for reduced power for RX
+  si5351.drive_strength(SI5351_CLK2, SI5351_DRIVE_8MA);
 
   // 20m
   int F_FT8 = 14074000;
@@ -76,5 +76,6 @@ void setup()
 
 void loop()
 {
+ 
   delay(10);
 }
