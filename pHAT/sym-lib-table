@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RPi-pHat-Thermocouple-rescue")(type "KiCad")(uri "${KIPRJMOD}/RPi-pHat-Thermocouple-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit Si5351A-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/libs/Adafruit Si5351A-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "EtherkitKicadLibrary")(type "KiCad")(uri "${KIPRJMOD}/libs/EtherkitKicadLibrary/EtherkitKicadLibrary.kicad_sym")(options "")(descr ""))
+)

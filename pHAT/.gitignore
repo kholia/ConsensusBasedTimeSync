@@ -1,0 +1,11 @@
+*.numbers
+*.bak
+*.kicad_pcb-bak
+*.save*
+*.net
+*.csv
+*.xml
+.idea
+__pycache__\
+
+fp-info-cache
