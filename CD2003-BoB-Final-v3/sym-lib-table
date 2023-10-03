@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADX-rescue")(type "KiCad")(uri "${KIPRJMOD}/ADX-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "Si5351")(type "KiCad")(uri "${KIPRJMOD}/libraries/Si5351.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-12-04_04-36-36")(type "KiCad")(uri "${KIPRJMOD}/libraries/2022-12-04_04-36-36.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-12-04_04-36-26")(type "KiCad")(uri "${KIPRJMOD}/libraries/2022-12-04_04-36-26.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit Si5351A-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/libraries/Adafruit Si5351A-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "CD2003 Library_Fixed")(type "KiCad")(uri "${KIPRJMOD}/libraries/CD2003 Library_Fixed.kicad_sym")(options "")(descr ""))
+  (lib (name "CD2003 Library")(type "KiCad")(uri "${KIPRJMOD}/libraries/CD2003 Library.kicad_sym")(options "")(descr ""))
+  (lib (name "cd2003gb_gp_fixed")(type "KiCad")(uri "${KIPRJMOD}/libraries/cd2003gb_gp_fixed.kicad_sym")(options "")(descr ""))
+)

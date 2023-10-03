@@ -1,0 +1,5 @@
+In 'CH340G-USB-to-RS232-TTL.webp', remove the D5 LED (RX LED).
+
+Add a 2.k to 3.3k resistor between TX and RX pins.
+
+RX pin then becomes the UPDI port.

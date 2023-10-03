@@ -48,11 +48,11 @@ void setup()
     led_flash();
     watchdog_reboot(0, 0, 1000);
   }
-  si5351.set_clock_pwr(SI5351_CLK0, 0); // safety first
+  //si5351.set_clock_pwr(SI5351_CLK0, 0); // safety first
 
   si5351.drive_strength(SI5351_CLK0, SI5351_DRIVE_8MA);
-  si5351.drive_strength(SI5351_CLK1, SI5351_DRIVE_8MA); // Set for reduced power for RX
-  si5351.drive_strength(SI5351_CLK2, SI5351_DRIVE_8MA);
+  //si5351.drive_strength(SI5351_CLK1, SI5351_DRIVE_8MA); // Set for reduced power for RX
+  //si5351.drive_strength(SI5351_CLK2, SI5351_DRIVE_8MA);
 
   // 20m
   int F_FT8 = 14074000;
@@ -68,14 +68,13 @@ void setup()
   // F_WSPR = 28124600;
   // ifreq = 464570UL;
 
-  si5351.set_freq(28074000ULL * 100ULL, SI5351_CLK1);
-  si5351.output_enable(SI5351_CLK0, 0); // TX off
-  si5351.output_enable(SI5351_CLK1, 1); // RX on
-  si5351.output_enable(SI5351_CLK2, 0); // RX IF on
+  si5351.set_freq(28074000ULL * 100ULL, SI5351_CLK0);
+  //si5351.output_enable(SI5351_CLK0, 1); // TX off
+  // si5351.output_enable(SI5351_CLK1, 1); // RX on
+  // si5351.output_enable(SI5351_CLK2, 0); // RX IF on
 }
 
 void loop()
 {
- 
   delay(10);
 }

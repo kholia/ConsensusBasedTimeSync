@@ -1,0 +1,7 @@
+- Establish a communication protocol between RPi and ATTINY3224-SSU.
+
+  Perhaps the simplest PTT signalling is enough?
+
+- Attach the encoder and screen to ATTINY3224-SSU perhaps?
+
+- Introduce bigger 3.3v regulator.
