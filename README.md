@@ -70,15 +70,20 @@ included in this repository.
 Tip: Use KiCad 7.x for handling these designs.
 
 Update (September 2023): After on-air testing, we recommend building the
-`CD2003-BoB-v2` design included in this repository over other designs!
-The `CD2003-S-BoB` design works too but BFO frequency tuning seems like
-a hard, finicky process.
+`CD2003-BoB-v2` design included in this repository over other designs for HF!
+The `CD2003-S-BoB` design works too but BFO frequency tuning seems like a hard,
+finicky process.
 
+Update 2 (November 2023): Please use the `CD2003-BoB-Final` version. It has
+some minor correctness fixes in it.
+
+Update 3 (March 2024): Please use the `CD2003-BoB-Final-v2` version. It can be
+automatically assembled by JLCPCB!
 
 ### Pinout
 
 ATTENTION: The Si4732 IC uses 3.3v signaling! Don't attach it to a 5v MCU
-without a bi-drectional level shifter.
+without a bi-directional level shifter.
 
 For sample programs, see https://github.com/pu2clr/SI4735/tree/master/examples.
 
